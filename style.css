@@ -1,0 +1,170 @@
+body {
+	background-color: lightblue;
+}
+
+div.navbar{
+	width: 100%;
+	font-family: poppins;
+	text-align: center;
+	margin-top: 15px;
+}
+a {
+	text-align: center;
+	margin-right: 25px;
+	font-style: bold;
+	font-size: 18px;
+}
+#name {
+	margin-right:  160px;
+}
+#number {
+	margin-left: 160px;
+}
+hr {
+	margin-top: 15px;
+
+}
+div.text {
+	width: 60%;
+}
+h1 {
+	font-family: poppins;
+	margin-left: 120px;
+	font-size: 40px;
+}
+strong {
+	color: navy;
+}
+h2 {
+	font-family: poppins;
+	margin-left: 120px;
+	margin-top: 45px;
+	font-size: 18px;
+}
+p {
+	font-family: poppins;
+	margin-left: 120px;
+	font-size: 16px;
+	margin-top: 5px;
+}
+div.pict {
+	margin-left : 1075px;
+	word-spacing: 8px; 
+	margin-bottom: 5px;
+	margin-top: 50px;
+}
+div.img {
+	width: 50%;
+	height: 100px;
+	margin-left: 120px;
+	margin-top: 50px;
+	
+}
+#pict1 {
+	margin-left: 10px;
+	margin-top: 0px;
+}
+#pict2 {
+	margin-left: 280px;
+}
+#text1 {
+	width: 280px;
+	margin-left: 50px;
+}
+#line2 {
+	width:100%;
+	align-items: right;
+}
+div.container {
+	display: flex;
+}
+#panah {
+	margin-left: 1075px;
+	margin-top: 2px;
+	display: flex;
+}
+h3 {
+	font-family: poppins;
+	width: 30%;
+	margin-left: 800px;
+}
+#header2 {
+	margin-top: 70px;
+	text-align: center;
+	font-size: 50px;
+	margin-left: 0px;
+}
+h4 {
+	font-family: poppins;
+	margin-top: 25px;
+	font-size: 20px;
+	margin-left: 410px;
+}
+#place {
+	font-size: 16px;
+	margin-left: 10px;
+	color: #A9A9A9;
+
+}
+#year {
+	font-size: 16px;
+	text-align: justify;
+	margin-left: 125px;
+	color: #A9A9A9;
+}
+#position {
+	margin-left: 138px;
+	color: black;
+}
+#position1 {
+	margin-left: 203px;
+	color: black;
+}
+.container {
+	width: 100%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#picture {
+	margin-top: 100px;
+	margin-left: 360px;
+}
+#paragraph {
+	margin-top: 100px;
+	background-color: white;
+	width: 13%;
+	margin-left:0px;
+}
+h5 {
+	font-family: poppins;
+	font-size: 18px;
+	text-align: center;
+	margin-left : 120px;
+}
+.skills1{
+	width: 300px;
+	margin-left: 100px;
+}
+.skills2{
+	width: 380px;
+	margin-left: 20px
+}
+.skills3{
+	width: 300px;
+	margin-left: 20px;
+}
+#check {
+	margin-left: 120px;
+}
+#tools {
+	margin-left: 138px;
+	color: black;
+	margin-top: 0px;
+}
+#abc {
+	margin-top: 100px;
+	font-size: 30px;
+}
+#p1 {
+	margin-top: 0px;
+}
