@@ -8,6 +8,13 @@ div.navbar{
 	font-family: poppins;
 	text-align: center;
 	margin-top: 15px;
+	border-bottom: solid;
+	border-width: 2px;
+
+}
+a:hover {
+	color: navy;
+	font-size: 21px;
 }
 a {
 	text-align: center;
@@ -18,12 +25,15 @@ a {
 }
 #name {
 	margin-right:  160px;
+	font-weight: bold;
 }
 #number {
 	margin-left: 160px;
+	font-weight: bold;
 }
 hr {
 	margin-top: 15px;
+	border-color: black;
 
 }
 div.text {
@@ -39,8 +49,9 @@ strong {
 	color: navy;
 }
 #circle {
-	margin-left: 880px;
+	margin-left: 780px;
 	margin-top: -200px;
+	width: 230px;
 
 }
 h2 {
@@ -80,10 +91,6 @@ div.img {
 	width: 270px;
 	margin-left: 50px;
 
-}
-#line2 {
-	width:100%;
-	align-items: right;
 }
 div.container {
 	display: flex;
@@ -129,6 +136,10 @@ h4 {
 #position1 {
 	margin-left: 203px;
 	color: black;
+}
+#line2{
+	margin-left: 200px;
+	width: 60%;
 }
 #arrow {
 	margin-left: 570px;
@@ -179,12 +190,17 @@ h5 {
 	color: black;
 	margin-top: 0px;
 }
+#line3 {
+	width: 40%;
+}
 .love {
 	margin-top: 0px;
 }
 #abc {
 	margin-top: 100px;
 	font-size: 30px;
+	font-weight: bold;
+	margin-left: 410px;
 }
 h6 {
 	margin-bottom: 0px;
@@ -223,6 +239,4 @@ h6 {
 	margin-left: 120px;
 	font-size: 25px;
 }
-#sm {
-	margin-left: 0px;
-}
+
