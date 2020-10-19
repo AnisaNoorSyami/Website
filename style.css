@@ -266,6 +266,12 @@ a {
     font-size: 12px;
     color: black;
 }
+#name {
+	display: none;
+}
+#number {
+	display: none;
+}
 .text {
     width: 60%;
     margin-left: 20px;
