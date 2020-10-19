@@ -267,7 +267,7 @@ a {
     color: black;
 }
 .text {
-    width: 50%;
+    width: 60%;
     margin-left: 20px;
 }
 h1 {
@@ -280,9 +280,9 @@ strong {
     color: navy;
 }
 #circle {
-    margin-top: -220px;
+    margin-top: -250px;
     width: 100px;
-    margin-left: 132px;
+    margin-left: 102px;
 }
 h2 {
     font-family: poppins;
@@ -297,7 +297,7 @@ h2 {
     color: #A9A9A9;
 }
 .pict {
-    margin-left: 110px;
+    margin-left: 80px;
     word-spacing: 8px;
     margin-bottom: 5px;
     margin-top: 20px;
