@@ -2,18 +2,18 @@ body {
 	background-color: lightblue;
 }
 
+.item-a {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
 .navbar{
 	width: 100%;
 	font-family: poppins;
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 20px;
 	border-bottom: solid;
 	border-width: 2px;
-
-}
-a:hover {
-	color: navy;
-	font-size: 21px;
 }
 a {
 	text-align: center;
@@ -21,6 +21,10 @@ a {
 	font-style: bold;
 	font-size: 18px;
 	color: black;
+}
+a:hover {
+	color: navy;
+	font-size: 21px;
 }
 #name {
 	margin-right:  160px;
@@ -30,13 +34,9 @@ a {
 	margin-left: 160px;
 	font-weight: bold;
 }
-hr {
-	margin-top: 15px;
-	border-color: black;
-
-}
-div.text {
+.text {
 	width: 60%;	
+	margin-top: 80px;
 }
 h1 {
 	font-family: poppins;
@@ -53,6 +53,11 @@ strong {
 	width: 230px;
 
 }
+hr {
+	margin-top: 15px;
+	border-color: black;
+
+}
 h2 {
 	font-family: poppins;
 	margin-left: 120px;
@@ -64,6 +69,10 @@ p {
 	margin-left: 120px;
 	font-size: 16px;
 	margin-top: 5px;
+}
+.item-b {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 div.pict {
 	margin-left : 1075px;
@@ -89,15 +98,14 @@ div.img {
 #text1 {
 	width: 270px;
 	margin-left: 50px;
-
 }
 div.container {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 #panah {
-	margin-left: 1075px;
-	margin-top: 2px;
-	display: flex;
+	margin-left: 520px;
+	margin-top: 50px;
 }
 h3 {
 	font-family: poppins;
@@ -158,6 +166,9 @@ h4 {
 	background-color: white;
 	width: 13%;
 	margin-left:0px;
+	font-family: raleway;
+	text-align: left;
+	font-size: 19px;
 }
 #info {
 	color: black;
@@ -224,12 +235,24 @@ h6 {
 	margin-left: 250px;
 }
 .contact {
-	margin-left: 260px;
-	margin-top: : 40px;
-	margin-bottom: 80px;
-	width: 60px;
+	display: grid;
+	margin-left: 220px;
+	margin-top: : 60px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	width: 40%;
 	font-family: poppins;
 	color: black;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.contact1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-right: 0px;
+	width: 60px;
+	font-size: 8px;
+	margin-left: 115px;
+	margin-top: 0px;
 }
 .lasttext {
 	margin-left: 120px;
@@ -239,7 +262,7 @@ h6 {
 	font-size: 25px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
 	body {
 	background-color: lightblue;
 }
