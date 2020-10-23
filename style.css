@@ -102,19 +102,27 @@ h3 {
 #panah {
   margin-top: -40px;
 }
-.item-d {
-  display: grid;
-  grid-template-columns: 300px 500px 100px;
-  grid-template-rows: 80px 80px 80px 80px;
-  grid-column-gap: 100px;
-  margin-left: 120px;
-}
 h4 {
   font-family: poppins;
   text-align: center;
   font-size: 40px;
   margin-top: 60px;
   margin-bottom: 10px;
+}
+.item-d {
+  display: grid;
+  grid-template-columns: 300px 500px 100px;
+  grid-template-rows: 80px 80px 80px 80px;
+  grid-column-gap: 100px;
+  margin-left: 100px;
+}
+.date {
+	margin-top: -40px;
+}
+#loadicon {
+	width: 195px;
+	margin-bottom: -170px;
+	opacity: 45%;
 }
 #date {
   font-size: 16px;
@@ -141,12 +149,104 @@ li {
   font-weight: bold;
   font-size: 16px;
 }
+#line {
+	border : solid;
+	border-width: 1px;
+	margin-top: 5px;
+}
 #arrow {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .item-e {
   display: grid;
-  grid-template-columns: 800px 10px 0px;
+  grid-template-columns: 250px 180px 0px;
   margin-top: 200px;
-  margin-left: 150px;
+  margin-left: 380px;
 }
+#download {
+	background-color: white;
+	width: 100%;
+	margin-left: 140px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+#img {
+	margin-left: 35px;
+	margin-top: 15px;
+}
+#text-1 {
+	font-family: poppins;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-left: 5px;
+	margin-bottom: 50px;
+}
+#text-2 {
+	font-size: 12px;
+	font-family: poppins; 
+	margin-left: 5px;
+	font-weight: bold;
+}
+button {
+	background-color: blue;
+	font-family: poppins;
+	font-weight: bold;
+	border-radius: 100px;
+	margin-left: 35px;
+
+}
+.item-f {
+	display: grid;
+	grid-template-columns: 270px 270px 270px;
+	margin-left: 150px;
+	column-gap: 80px;
+}
+h5 {
+	font-family: poppins;
+	font-size: 20px;
+	text-align: center;
+}
+#text-3 {
+	margin-left: 0px;
+}
+.item-g {
+	display: grid;
+	grid-template-columns: 100%;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+#abc {
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 288px;
+}
+#check {
+	margin-left: 120px;
+}
+#tools {
+	margin-left: 138px;
+	color: black;
+	margin-top: 0px;
+	font-family: poppins;
+}
+#line-1{
+	border: solid;
+	width: 40%;
+	border-width: 1px;
+	margin-left: 290px;
+	margin-top: 10px;
+}
+#item-h {
+	display: grid;
+	grid-template-columns: 95%;
+	background-color: white;
+	margin-top: 300px;
+	margin-left: 37px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+}
+#img-1 {
+	width: 100px;
+}
+

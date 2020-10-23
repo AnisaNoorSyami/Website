@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Website</title>
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <body>
 		<nav>
 			<a id="name">Anisasyami.cv</a>
@@ -20,7 +20,7 @@
 			<h1>Hi, My name is Anisa Noor Syami.
         I'm a <span>Senior Programmer</span>
         with 5+ years experience in the digital world.</h1>
-        <img src="images/circle.png" id="circle">
+        <img src="images/loading.png" id="circle">
       </div>
 
       <div class="item-b">
@@ -51,8 +51,9 @@
 
       <h4>Experience</h4>
       <div class="item-d">
-        <div>
+        <div class="date">
           <ul>
+            <img src="images/loading1.png" id="loadicon">
             <li id="date">Jul 2015 -</li>
             <li id="date">Mar 2014 - Jul 2015</li>
             <li id="date">Aug 2012 - Feb 2014</li>
@@ -63,10 +64,13 @@
           <ul>
             <li>Agency Vision Trust<span id="place">Yogyakarta, Indonesia</span></li>
             <span id="position">Senior Product Designer</span>
+            <div id="line"></div>
             <li>Infinity Ltd.<span id="place">Bandung, Indonesia</span></li>
             <span id="position">UI/UX & Product Designer</span>
+            <div id="line"></div>
             <li>Glory Of Mind<span id="place">Jakarta, Indonesia</span></li>
             <span id="position">Product Designer</span>
+            <div id="line"></div>
             <li>Halsa Group<span id="place">Bandung, Indonesia</span></li>
             <span id="position">Project Manager</span>
           </ul>
@@ -85,11 +89,42 @@
         <div>
           <img src="images/hm.jpg">
         </div>
-        <p id="text-1">
-          <img src="images/pdf1.png">
-          Download my Curriculum Vitae.
-        </p>
+        <div id="download">
+          <img src="images/pdf1.png" id="img">
+          <p id="text-1">Download my Curriculum Vitae.</p>
+          <p id="text-2">For more information, please contact me at <span>syamianisa3@gmail.com</span></p>
+          <button>Download</button>
+        </div>
       </div>
+
+      <h4>My Skills</h4>
+      <div class="item-f">
+        <div>
+          <h5>Product Design</h5>
+          <p id="text-3">I have made a lot of products for clients and I got a positive response from them.</p>
+        </div>
+        <div>
+          <h5>Front End</h5>
+          <p id="text-3">I really like this part, because Front end is focused on the look that's being created. An intersting appearance will be a good impression.</p>
+        </div>
+        <div>
+          <h5>Back End</h5>
+          <p id="text-3">I'm also interested in Back End, but I'm still developing this and I haven't mastered it much.</p>
+        </div>
+      </div>
+
+      <div class="item-g">
+        <ul>
+          <li id="abc">Adobe Creative Cloud</li>
+          <img src="images/check.png" id="check"><span id="tools">Adobe XD, Figma</span>
+          <div id="line-1"></div>
+          <li id="abc">Project Management</li>
+          <img src="images/check.png" id="check"><span id="tools">Trello, Scrum</span>
+          <div id="line-1"></div>
+          <li id="abc">Love <3</li>
+          <img src="images/check.png" id="check"><span id="tools">Spotify, Wattpad</span>
+        </ul>
+      </div>    
 </body>
 </html>
 
