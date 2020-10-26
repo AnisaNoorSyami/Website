@@ -237,16 +237,38 @@ h5 {
 	margin-left: 290px;
 	margin-top: 10px;
 }
-#item-h {
+.item-h {
 	display: grid;
-	grid-template-columns: 95%;
+	grid-template-columns: 100%;
 	background-color: white;
 	margin-top: 300px;
+	width: 95%;
 	margin-left: 37px;
 	margin-right: 150px;
 	margin-bottom: 20px;
 }
-#img-1 {
-	width: 100px;
+#lastpict {
+	margin-top: -150px;
+	width: 800px;
+	height: 400px;
+	margin-left: 250px;
+}
+#contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
+.contact1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-right: 0px;
+	width: 60px;
+	font-size: 8px;
+	margin-left: 115px;
+	margin-top: 0px;
+}
+#contact {
+	margin-left: 120px;
+	font-size: 25px;
 }
 
