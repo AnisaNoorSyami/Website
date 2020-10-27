@@ -1,5 +1,6 @@
 body {
   background-color: #86D1EA;
+  -webkit-font-smoothing: antialiased;
 }
 nav {
   width: 100%;
@@ -123,7 +124,7 @@ h4 {
 #loadicon {
 	width: 195px;
 	margin-bottom: -170px;
-	opacity: 45%;
+	opacity: 60%;
 }
 #date {
   font-size: 16px;
@@ -286,9 +287,10 @@ h6 {
 	font-size: 25px;
 }
 
-@media (max-width: 320px;) {
+@media (max-width: 600px;) {
 body {
   background-color: lightblue;
+ -webkit-font-smoothing: antialiased;
 }
 nav {
     width: auto;
@@ -328,6 +330,7 @@ h1 {
 }
 span {
     color: navy;
+    font-size: 12px;
 }
 #circle {
     margin-top: -250px;
