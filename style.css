@@ -288,7 +288,7 @@ h6 {
 	font-size: 25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width : 600px) {
 body {
   background-color: lightblue;
  -webkit-font-smoothing: antialiased;
@@ -369,24 +369,27 @@ img {
 }
 #pict1 {
     margin-top: -30px;
-    width: 190px;
+    width: 160px;
     margin-left: 70px;
 }
 #pict2 {
-    width: 170px;
+    width: 140px;
     margin-left: -75px;
     margin-top: 50px;
 }
 h3 {
     width: 170px;
     font-size: 10px;
-    margin-top: 45px;
-    margin-left: 10px;
+    margin-top: 54px;
+    margin-left: -48px;
 }
 #text {
-  width: 170px;
-  font-size: 10px;
-  margin-left: 10px;
+  display: none;
+}
+#panah {
+    width: 64px;
+    margin-left: 291px;
+    margin-top: -174px;
 }
 }
 
