@@ -116,7 +116,7 @@ h4 {
   display: grid;
   grid-template-columns: 300px 500px 100px;
   grid-template-rows: 80px 80px 80px 80px;
-  grid-column-gap: 100px;
+  grid-column-gap: 50px;
   margin-left: 100px;
 }
 .date {
@@ -353,8 +353,10 @@ p {
     margin-top: -3px;
 }
 .pict {
+    display: flex;
     margin-top: 40px;
-    margin-left: 70px;
+    margin-left: 50px;
+    margin-right: 5px;
 }
 .item-c {
   display: grid;
@@ -390,6 +392,42 @@ h3 {
     width: 64px;
     margin-left: 291px;
     margin-top: -174px;
+}
+h4 {
+  font-size: 16px;
+}
+.item-d {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
+    margin-left: 5px;
+    grid-column-gap: 0px;
+}
+#date {
+  font-size: 12px;
+}
+#loadicon {
+  width: 160px;
+  margin-bottom: -170px;
+  opacity: 60%;
+}
+li {
+    list-style: none;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+}
+#place {
+  font-size: 12px;
+}
+#position {
+  font-size: 12px;
+}
+#line {
+  width: auto;
+}
+#arrow {
+  display: none;
 }
 }
 
