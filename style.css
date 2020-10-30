@@ -34,7 +34,7 @@ a:hover {
 }
 .item-a {
   display: grid;
-  grid-template-columns: 800px auto;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   margin-top: 80px;
 }
 h1 {
@@ -254,10 +254,10 @@ h5 {
 	margin-bottom: 20px;
 }
 #lastpict {
-	margin-top: -150px;
-	width: 800px;
-	height: 400px;
-	margin-left: 250px;
+	margin-top: -250px;
+	margin-left: auto;
+  margin-right: auto;
+  height: 500px;
 }
 .contact {
 	display: grid;
@@ -320,11 +320,10 @@ a {
 }
 .item-a {
     margin-top: 50px;
-    width: 60%;
     margin-left: 10px;
 }
 h1 {
-    width: 35%;
+    width: 40%;
     font-family: poppins;
     margin-left: 5px;
     font-size: 16px;
@@ -335,9 +334,9 @@ span {
     font-size: 16px;
 }
 #circle {
-    margin-top: -7px;
+    margin-top: -130px;
     width: 100px;
-    margin-left: -469px;
+    margin-left: 250px;
 }
 
 h2 {
@@ -359,6 +358,8 @@ p {
     width: 71px;
 }
 .item-c {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-left: -70px;
   margin-top: 20px;
 }
@@ -376,6 +377,12 @@ img {
     width: 200px;
     margin-left: -75px;
     margin-top: 50px;
+}
+h3 {
+    width: 170px;
+    font-size: 10px;
+    margin-top: 45px;
+    margin-left: 10px;
 }
 }
 
