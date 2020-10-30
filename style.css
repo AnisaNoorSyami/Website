@@ -50,25 +50,26 @@ span {
   margin-top: 20px;
   width: 220px;
 }
+.item-b {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
 h2 {
   font-family: poppins;
   margin-left: 120px;
   margin-top: 45px;
-  font-size: 18px;
+  font-size: 16px;
 }
 p {
   font-family: poppins;
   margin-left: 120px;
-  font-size: 16px;
-  margin-top: 5px;
-}
-.item-b {
-  display: grid;
-  grid-template-columns: 800px auto; 
+  font-size: 14px;
+  margin-top: 3px;
 }
 .pict {
   margin-top: 80px;
-  padding-left: 250px;
+  padding-left: 300px;
+  margin-right: 25px;
 }
 .item-c {
   display: grid;
@@ -334,9 +335,9 @@ span {
     font-size: 16px;
 }
 #circle {
-    margin-top: -130px;
-    width: 100px;
-    margin-left: 250px;
+    margin-top: -120px;
+    width: 90px;
+    margin-left: 270px;
 }
 
 h2 {
@@ -349,13 +350,11 @@ p {
     font-family: poppins;
     margin-left: 15px;
     font-size: 10px;
-    margin-top: -5px;
+    margin-top: -3px;
 }
 .pict {
     margin-top: 40px;
-    margin-left: -700px;
-    padding-left: x;
-    width: 71px;
+    margin-left: 70px;
 }
 .item-c {
   display: grid;
@@ -365,16 +364,16 @@ p {
 }
 img {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
     margin-left: 20px;
 }
 #pict1 {
     margin-top: -30px;
-    width: 220px;
+    width: 190px;
     margin-left: 70px;
 }
 #pict2 {
-    width: 200px;
+    width: 170px;
     margin-left: -75px;
     margin-top: 50px;
 }
@@ -383,6 +382,11 @@ h3 {
     font-size: 10px;
     margin-top: 45px;
     margin-left: 10px;
+}
+#text {
+  width: 170px;
+  font-size: 10px;
+  margin-left: 10px;
 }
 }
 
