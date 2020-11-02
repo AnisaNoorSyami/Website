@@ -370,28 +370,29 @@ img {
     margin-left: 20px;
 }
 #pict1 {
-    margin-top: -30px;
-    width: 160px;
-    margin-left: 70px;
+    margin-top: 15px;
+    width: 290px;
+    margin-left: 120px;
 }
 #pict2 {
-    width: 140px;
-    margin-left: -75px;
-    margin-top: 50px;
+    width: 292px;
+    margin-left: -290px;
+    margin-top: 205px;
 }
 h3 {
-    width: 170px;
-    font-size: 10px;
-    margin-top: 54px;
-    margin-left: -48px;
+    width: 250px;
+    font-size: 14px;
+    margin-top: 424px;
+    margin-left: -291px;
 }
 #text {
-  display: none;
+  width: 250px;
+  font-size: 14px;
+  margin-top: 6px;
+  margin-left: -292px;
 }
 #panah {
-    width: 64px;
-    margin-left: 291px;
-    margin-top: -174px;
+    display: none;
 }
 h4 {
   font-size: 16px;
@@ -466,10 +467,10 @@ li {
   font-size: 20px;
 }
 #tools {
-    margin-left: 289px;
-    color: black;
-    margin-top: 0px;
-    font-family: poppins;
+  margin-left: 289px;
+  color: black;
+  margin-top: 0px;
+  font-family: poppins;
 }
 
 }
