@@ -88,7 +88,7 @@ p {
 #pict1 {
   margin-top: -30px;
 }
-#pict2 {
+#gambar2 {
   width: 350px;
   margin-left: 260px;
   margin-top: -140px;
@@ -374,10 +374,10 @@ img {
     width: 290px;
     margin-left: 120px;
 }
-#pict2 {
-    width: 292px;
-    margin-left: -290px;
-    margin-top: 205px;
+#gambar2 {
+    width: 296px;
+    margin-left: 120px;
+    margin-top: 15px;
 }
 h3 {
     width: 250px;
