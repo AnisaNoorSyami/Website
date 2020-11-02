@@ -81,7 +81,7 @@ p {
   border-width: 100%;
   border-width: 1px;
 }
-.img {
+.img1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -90,8 +90,8 @@ p {
 }
 #pict2 {
   width: 350px;
-  margin-left: -100px;
-  margin-top: 100px;
+  margin-left: 260px;
+  margin-top: -140px;
 }
 h3 {
   margin-top: 100px;
@@ -173,7 +173,7 @@ li {
 	margin-top: -10px;
 	margin-bottom: 10px;
 }
-#img {
+#img1 {
 	margin-left: 35px;
 	margin-top: 15px;
 }
@@ -444,24 +444,32 @@ li {
     margin-top: 180px;
     margin-left: -18px;
 }
+#img {
+  width: 300px;
+}
 .download {
-    margin-top: -12px;
-    margin-bottom: -5px;
+   margin-top: -12px;
+  margin-bottom: -9px;
+  margin-left: 50px;
 }
 #email {
   color: navy;
   font-size: 10px;
 }
 #header2 {
-  font-size: 24px;
-  text-align: center;
-  margin-left: 70px;  
+ font-size: 30px;
+ text-align: left;
+ margin-left: 136px;  
+}
+.item-f {
+    margin-left: 70px;
+    margin-top: 50px;
 }
 #a {
   width: 48px;
 }
 .item-g {
-  margin-left: -150px;
+  margin-left: -140px;
 } 
 #abc {
   font-size: 20px;
