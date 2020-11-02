@@ -166,7 +166,7 @@ li {
   margin-top: 200px;
   margin-left: 380px;
 }
-#download {
+.download {
 	background-color: white;
 	width: 100%;
 	margin-left: 140px;
@@ -200,7 +200,7 @@ button {
 }
 .item-f {
 	display: grid;
-	grid-template-columns: 270px 270px 270px;
+	grid-template-columns: repeat(auto-fill, 270px);
 	margin-left: 150px;
   margin-top: 50px;
 	column-gap: 80px;
@@ -218,7 +218,7 @@ h5 {
 }
 .item-g {
 	display: grid;
-	grid-template-columns: 100%;
+	grid-template-columns: repeat(auto-fill, 1fr);
 	margin-left: 150px;
 	margin-top: 50px;
 }
@@ -399,15 +399,17 @@ h4 {
 .item-d {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
-    margin-left: 5px;
+    margin-left: 0px;
     grid-column-gap: 0px;
 }
 #date {
   font-size: 12px;
+  margin-left: 2px;
+  margin-top: 82px;
 }
 .experience {
   display: grid;
-  grid-template-columns: 200px;
+  grid-template-columns: 250px;
   margin-left: 170px;
   margin-top: -120px;
 }
@@ -434,6 +436,40 @@ li {
 }
 #arrow {
   display: none;
+}
+.item-e {
+    display: grid;
+    grid-template-columns: 214px 145px 9px;
+    margin-top: 180px;
+    margin-left: -18px;
+}
+.download {
+    margin-top: -12px;
+    margin-bottom: -5px;
+}
+#email {
+  color: navy;
+  font-size: 10px;
+}
+#header2 {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 70px;  
+}
+#a {
+  width: 48px;
+}
+.item-g {
+  margin-left: -150px;
+} 
+#abc {
+  font-size: 20px;
+}
+#tools {
+    margin-left: 289px;
+    color: black;
+    margin-top: 0px;
+    font-family: poppins;
 }
 
 }
