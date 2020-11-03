@@ -474,20 +474,44 @@ li {
 #abc {
   font-size: 12px;
   margin-top: 32px;
-  margin-left: 150px;
+  margin-left: 160px;
 }
 #check {
   margin-top: -25px;
 }
 #tools {
-  margin-left: 150px;
+  margin-left: 160px;
   color: black;
   margin-top: 0px;
   font-size: 10px;
 }
 #line-1 {
-  margin-left: 150px;
+  margin-left: 160px;
 }
-
+.item-h {
+  margin-top: 100px;
+  width: 400px;
+  margin-left: 10px;
+}
+#lastpict {
+  width: 260px;
+  height: 180px;
+  margin-top: -80px;
+}
+#contactme {
+  font-size: 30px;
+}
+#contact {
+  margin-left: 30px;
+}
+h6 {
+  margin-left: 30px;
+}
+.contact {
+  margin-left: 30px;
+}
+.contact1 {
+  margin-left: 30px;
+}
 }
 
