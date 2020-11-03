@@ -474,19 +474,19 @@ li {
 #abc {
   font-size: 12px;
   margin-top: 32px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 #check {
-  margin-top: -20px;
+  margin-top: -25px;
 }
 #tools {
-  margin-left: 100px;
+  margin-left: 150px;
   color: black;
   margin-top: 0px;
   font-size: 10px;
 }
 #line-1 {
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 }
