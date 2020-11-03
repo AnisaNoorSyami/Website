@@ -372,11 +372,11 @@ img {
 #pict1 {
     margin-top: 15px;
     width: 290px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 #gambar2 {
     width: 280px;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: 30px;
 }
 h3 {
@@ -405,19 +405,19 @@ h4 {
 }
 #date {
   font-size: 12px;
-  margin-left: 2px;
+  margin-left: -27px;
   margin-top: 82px;
 }
 .experience {
   display: grid;
-  grid-template-columns: 250px;
-  margin-left: 170px;
+  grid-template-columns: 200px;
+  margin-left: 93px;
   margin-top: -120px;
 }
 #loadicon {
   width: 160px;
   margin-bottom: -170px;
-  opacity: 60%;
+  opacity: 30%;
 }
 li {
     list-style: none;
