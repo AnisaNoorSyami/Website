@@ -406,7 +406,7 @@ h4 {
 #date {
   font-size: 12px;
   margin-left: -27px;
-  margin-top: 82px;
+  margin-top: 75px;
 }
 .experience {
   display: grid;
@@ -473,6 +473,10 @@ li {
 } 
 #abc {
   font-size: 20px;
+  margin-top: 32px;
+}
+#check {
+  margin-top: -20px;
 }
 #tools {
   margin-left: 289px;
