@@ -445,12 +445,12 @@ li {
     margin-left: -18px;
 }
 #img {
-  width: 300px;
+  width: 280px;
 }
 .download {
-   margin-top: -12px;
-  margin-bottom: -9px;
-  margin-left: 50px;
+  margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: 33px;
 }
 #email {
   color: navy;
@@ -470,28 +470,29 @@ li {
 }
 .item-g {
   margin-left: -140px;
+  margin-top: 8px;
 } 
 #abc {
   font-size: 12px;
   margin-top: 32px;
-  margin-left: 160px;
+  margin-left: 170px;
 }
 #check {
   margin-top: -25px;
 }
 #tools {
-  margin-left: 160px;
+  margin-left: 170px;
   color: black;
   margin-top: 0px;
   font-size: 10px;
 }
 #line-1 {
-  margin-left: 160px;
+  margin-left: 170px;
 }
 .item-h {
   margin-top: 100px;
   width: 400px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 #lastpict {
   width: 260px;
@@ -499,10 +500,11 @@ li {
   margin-top: -80px;
 }
 #contactme {
-  font-size: 30px;
+  font-size: 25px;
 }
 #contact {
   margin-left: 30px;
+  font-size: 16px;
 }
 h6 {
   margin-left: 30px;
@@ -512,6 +514,9 @@ h6 {
 }
 .contact1 {
   margin-left: 30px;
+}
+#sm {
+  font-size: 16px;
 }
 }
 
