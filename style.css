@@ -127,7 +127,7 @@ h4 {
 	margin-bottom: -170px;
 	opacity: 60%;
 }
-#date {
+#date-1, #date-2, #date-3, #date-4{
   font-size: 16px;
   color: grey;
   line-height: 14px;
@@ -289,230 +289,257 @@ h6 {
 }
 
 @media (max-width : 600px) {
-body {
-  background-color: lightblue;
- -webkit-font-smoothing: antialiased;
-}
-nav {
+  body {
+    background-color: lightblue;
+   -webkit-font-smoothing: antialiased;
+  }
+  nav {
     width: auto;
     font-family: poppins;
     text-align: center;
     margin-top: 5px
-  color: navy;
-  font-size: 13px;
-}
-a {
+    color: navy;
+    font-size: 13px;
+  }
+  a {
     width: auto;
     text-align: center;
     margin-right: 5px;
     font-style: bold;
     font-size: 12px;
     color: black;
-}
-#name {
-  display: none;
-}
-#number {
-  display: none;
-}
-.item-a {
+  }
+  #name {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
+  .item-a {
     margin-top: 50px;
     margin-left: 10px;
-}
-h1 {
+  }
+  h1 {
     width: 40%;
     font-family: poppins;
     margin-left: 5px;
     font-size: 16px;
     margin-top: -10px;
-}
-span {
+  }
+  span {
     color: navy;
     font-size: 16px;
-}
-#circle {
+  }
+  #circle {
     margin-top: -120px;
     width: 90px;
     margin-left: 250px;
-}
-
-h2 {
+  }
+  h2 {
     font-family: poppins;
     margin-left: 12px;
     margin-top: 15px;
     font-size: 10px;
-}
-p {
+  }
+  p {
     font-family: poppins;
     margin-left: 15px;
     font-size: 10px;
     margin-top: -3px;
-}
-.pict {
+  }
+  .pict {
     display: flex;
     margin-top: 40px;
     margin-left: -100px;
     margin-right: 5px;
-}
-.item-c {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: -70px;
-  margin-top: 20px;
-}
-img {
+  }
+  .item-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -70px;
+    margin-top: 20px;
+  }
+  img {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
     margin-left: 20px;
-}
-#pict1 {
+  }
+  #pict1 {
     margin-top: 15px;
     width: 290px;
     margin-left: 100px;
-}
-#gambar2 {
+  }
+  #gambar2 {
     width: 280px;
     margin-left: 100px;
     margin-top: 30px;
-}
-h3 {
+  }
+  h3 {
     width: 250px;
     font-size: 14px;
     margin-top: 450px;
     margin-left: -291px;
-}
-#text {
-  width: 250px;
-  font-size: 14px;
-  margin-top: 6px;
-  margin-left: -292px;
-}
-#panah {
+  }
+  #text {
+    width: 250px;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: -292px;
+  }
+  #panah {
     display: none;
-}
-h4 {
-  font-size: 16px;
-}
-.item-d {
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .item-d {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
     margin-left: 0px;
     grid-column-gap: 0px;
-}
-#date {
-  font-size: 12px;
-  margin-left: -27px;
-  margin-top: 90px;
-}
-.experience {
-  display: grid;
-  grid-template-columns: 200px;
-  margin-left: 93px;
-  margin-top: -120px;
-}
-#loadicon {
-  width: 160px;
-  margin-bottom: -170px;
-  opacity: 30%;
-}
-li {
+  }
+  #date-1{
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 90px;
+  }
+   #date-2{
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 100px;
+  }
+   #date-3{
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 103px;
+  }
+   #date-4{
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 102px;
+  }
+  .experience {
+    display: grid;
+    grid-template-columns: 200px;
+    margin-left: 93px;
+    margin-top: -120px;
+  }
+  #loadicon {
+    width: 160px;
+    margin-bottom: -170px;
+    opacity: 30%;
+  }
+  li {
     list-style: none;
     font-family: poppins;
     font-weight: bold;
     font-size: 14px;
     margin-top: 50px;
-}
-#place {
-  font-size: 12px;
-}
-#position {
-  font-size: 12px;
-}
-#line {
-  width: auto;
-}
-#arrow {
-  display: none;
-}
-.item-e {
+  }
+  #place {
+    font-size: 12px;
+  }
+  #position {
+    font-size: 12px;
+  }
+  #line {
+    width: auto;
+  }
+  #arrow {
+    display: none;
+  }
+  .item-e {
     display: grid;
-    grid-template-columns: 214px 145px 9px;
+    grid-template-columns: 1fr;
     margin-top: 180px;
     margin-left: -18px;
-}
-#img {
-  width: 280px;
-}
-.download {
-  margin-top: -10px;
+  }
+  #img {
+    width: 280px;
+    margin-left: 30px;
+  }
+  .download {
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 33px;
-}
-#email {
-  color: navy;
-  font-size: 10px;
-}
-#header2 {
- font-size: 30px;
- text-align: left;
- margin-left: 136px;  
-}
-.item-f {
-    margin-left: 70px;
+    margin-left: 30px;
+    width: 280px;
+  }
+  #text-1 {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-bottom: 25px; 
+  } 
+  #email {
+    color: navy;
+    font-size: 10px;
+  }
+  button {
+    margin-bottom: 10px;
+  }
+  #header2 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 115px;  
+  }
+  .item-f {
+    margin-left: 40px;
     margin-top: 50px;
-}
-#a {
-  width: 48px;
-}
-.item-g {
-  margin-left: -140px;
-  margin-top: 8px;
-} 
-#abc {
-  font-size: 12px;
-  margin-top: 32px;
-  margin-left: 170px;
-}
-#check {
-  margin-top: -25px;
-}
-#tools {
-  margin-left: 170px;
-  color: black;
-  margin-top: 0px;
-  font-size: 10px;
-}
-#line-1 {
-  margin-left: 170px;
-}
-.item-h {
-  margin-top: 100px;
-  width: 400px;
-  margin-left: 0px;
-}
-#lastpict {
-  width: 260px;
-  height: 180px;
-  margin-top: -80px;
-}
-#contactme {
-  font-size: 25px;
-}
-#contact {
-  margin-left: 30px;
-  font-size: 16px;
-}
-h6 {
-  margin-left: 30px;
-}
-.contact {
-  margin-left: 30px;
-}
-.contact1 {
-  margin-left: 30px;
-}
-#sm {
-  font-size: 16px;
-}
-}
+  }
+  #a {
+    width: 48px;
+  }
+  .item-g {
+    margin-left: -140px;
+    margin-top: 8px;
+  } 
+  #abc {
+    font-size: 12px;
+    margin-top: 32px;
+    margin-left: 170px;
+  }
+  #check {
+    margin-top: -25px;
+  }
+  #tools {
+    margin-left: 170px;
+    color: black;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  #line-1 {
+    margin-left: 170px;
+  }
+  .item-h {
+    margin-top: 100px;
+    width: 400px;
+    margin-left: 0px;
+  }
+  #lastpict {
+    width: 260px;
+    height: 180px;
+    margin-top: -80px;
+  }
+  #contactme {
+    font-size: 25px;
+  }
+  #contact {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+  h6 {
+    margin-left: 30px;
+  }
+  .contact {
+    margin-left: 30px;
+  }
+  .contact1 {
+    margin-left: 30px;
+  }
+  #sm {
+    font-size: 16px;
+  }
+  }
 
