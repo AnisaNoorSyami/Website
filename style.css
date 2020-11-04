@@ -1,27 +1,31 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
 body {
   background-color: #86D1EA;
   -webkit-font-smoothing: antialiased;
+  display: block;
+}
+.navigation-wrapper {
+  margin: 20px 120px;
 }
 nav {
-  width: 100%;
   font-family: poppins;
-  text-align: center;
   margin-top: 20px;
   border-bottom: solid;
   border-width: 1px;
   border-color: grey;
-
 }
 #name {
   margin-right:  160px;
   font-weight: bold;
 }
 #number {
-  margin-left: 160px;
   font-weight: bold;
+  float: right;
 }
 a {
-  text-align: center;
   margin-right: 25px;
   font-style: bold;
   font-size: 18px;
@@ -29,13 +33,13 @@ a {
 }
 a:hover {
   color: #25A5D0;
-  font-size: 21px;
   cursor: pointer;
 }
 .item-a {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
   margin-top: 80px;
+  grid-auto-flow: dense;
 }
 h1 {
   font-family: poppins;
@@ -198,15 +202,14 @@ button {
 	margin-left: 35px;
 
 }
-.item-f {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 270px);
-	margin-left: 150px;
-  margin-top: 50px;
-	column-gap: 80px;
+.item-skills{
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 150px;
+  margin: 40px 90px 60px;
 }
-#a {
-  margin-left: 100px;
+.item-f div img {
+  align-self: center;
 }
 h5 {
 	font-family: poppins;
@@ -543,3 +546,8 @@ h6 {
   }
   }
 
+
+.skill-wrapper {
+  display: grid;
+  justify-items: center;
+}
