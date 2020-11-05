@@ -1,5 +1,5 @@
 html, body {
-  margin: 0;
+  margin: 0 5px;
   height: 100%;
 }
 body {
@@ -8,7 +8,9 @@ body {
   display: block;
 }
 .navigation-wrapper {
+  display: grid;
   margin: 20px 120px;
+  grid-template-columns: repeat(1, minmax(320px, auto));
 }
 nav {
   font-family: poppins;
@@ -16,9 +18,10 @@ nav {
   border-bottom: solid;
   border-width: 1px;
   border-color: grey;
+  text-align: center;
 }
 #name {
-  margin-right:  160px;
+  float: left;
   font-weight: bold;
 }
 #number {
@@ -35,9 +38,9 @@ a:hover {
   color: #25A5D0;
   cursor: pointer;
 }
-.item-a {
+.item-section-1{
   display: grid;
-  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 1440px));
   margin-top: 80px;
   grid-auto-flow: dense;
 }
@@ -50,11 +53,10 @@ span {
   color: navy;
 }
 #circle {
-  margin-left: 180px;
-  margin-top: 20px;
+  margin: 0 auto;
   width: 220px;
 }
-.item-b {
+.item-section-2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
 }
@@ -75,7 +77,7 @@ p {
   padding-left: 300px;
   margin-right: 25px;
 }
-.item-c {
+.item-section-3 {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
   margin-left: 120px;
@@ -116,33 +118,30 @@ h4 {
   margin-top: 60px;
   margin-bottom: 10px;
 }
-.item-d {
-  display: grid;
-  grid-template-columns: 300px 500px 100px;
-  grid-template-rows: 80px 80px 80px 80px;
-  grid-column-gap: 50px;
-  margin-left: 100px;
+.item-experience {
+  display: block; 
 }
-.date {
-	margin-top: -40px;
+.experience.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(320px, 1fr));
 }
 #loadicon {
-	width: 195px;
-	margin-bottom: -170px;
-	opacity: 60%;
-}
-#date-1, #date-2, #date-3, #date-4{
-  font-size: 16px;
-  color: grey;
-  line-height: 14px;
-  margin-top: 90px;
+  width: 195px;
+  margin-bottom: -170px;
+  opacity: 60%;
 }
 li {
   list-style: none;
   font-family: poppins;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 50px;
+}
+#date-1, #date-2, #date-3, #date-4{
+  font-family: poppins;   
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;  
+  line-height: 14px;
 }
 #place {
   font-family: poppins;
@@ -156,50 +155,52 @@ li {
   font-weight: bold;
   font-size: 16px;
 }
-#line {
-	border : solid;
-	border-width: 1px;
-	margin-top: 5px;
+.line {
+  border : solid;
+  color: grey;
+  border-width: 1px;
+  margin-top: 5px;
+  width: 60%;
 }
 #arrow {
   margin-top: 80px;
 }
-.item-e {
+.item-download {
   display: grid;
   grid-template-columns: 250px 180px 0px;
   margin-top: 200px;
   margin-left: 380px;
 }
 .download {
-	background-color: white;
-	width: 100%;
-	margin-left: 140px;
-	margin-top: -10px;
-	margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+  margin-left: 140px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 #img1 {
-	margin-left: 35px;
-	margin-top: 15px;
+  margin-left: 35px;
+  margin-top: 15px;
 }
 #text-1 {
-	font-family: poppins;
-	font-weight: bold;
-	letter-spacing: 1px;
-	margin-left: 5px;
-	margin-bottom: 50px;
+  font-family: poppins;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  margin-bottom: 50px;
 }
 #text-2 {
-	font-size: 12px;
-	font-family: poppins; 
-	margin-left: 5px;
-	font-weight: bold;
+  font-size: 12px;
+  font-family: poppins; 
+  margin-left: 5px;
+  font-weight: bold;
 }
 button {
-	background-color: blue;
-	font-family: poppins;
-	font-weight: bold;
-	border-radius: 100px;
-	margin-left: 35px;
+  background-color: blue;
+  font-family: poppins;
+  font-weight: bold;
+  border-radius: 100px;
+  margin-left: 35px;
 
 }
 .item-skills{
@@ -208,64 +209,68 @@ button {
   column-gap: 150px;
   margin: 40px 90px 60px;
 }
-.item-f div img {
+.skill-wrapper {
+  display: grid;
+  justify-items: center;
+}
+.item-skills div img {
   align-self: center;
 }
 h5 {
-	font-family: poppins;
-	font-size: 20px;
-	text-align: center;
+  font-family: poppins;
+  font-size: 20px;
+  text-align: center;
 }
 #text-3 {
-	margin-left: 0px;
+  margin-left: 0px;
 }
-.item-g {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 1fr);
-	margin-left: 150px;
-	margin-top: 50px;
+.item-adobe {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(320px, auto));
+  margin-left: 150px;
+  margin-top: 50px;
 }
 #abc {
-	margin-top: 50px;
-	font-size: 30px;
-	font-weight: bold;
-	margin-left: 288px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 288px;
 }
 #check {
-	margin-left: 120px;
+  margin-left: 120px;
 }
 #tools {
-	margin-left: 138px;
-	color: black;
-	margin-top: 0px;
-	font-family: poppins;
+  margin-left: 138px;
+  color: black;
+  margin-top: 0px;
+  font-family: poppins;
 }
 #line-1{
-	border: solid;
-	width: 40%;
-	border-width: 1px;
-	margin-left: 290px;
-	margin-top: 10px;
+  border: solid;
+  width: 40%;
+  border-width: 1px;
+  margin-left: 290px;
+  margin-top: 10px;
 }
-.item-h {
-	display: grid;
-	grid-template-columns: 100%;
-	background-color: white;
-	margin-top: 300px;
-	width: 95%;
-	margin-left: 37px;
-	margin-right: 150px;
-	margin-bottom: 20px;
+.item-contact {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: white;
+  margin-top: 300px;
+  width: 95%;
+  margin-left: 37px;
+  margin-right: 150px;
+  margin-bottom: 20px;
 }
 #lastpict {
-	margin-top: -250px;
-	margin-left: auto;
+  margin-top: -250px;
+  margin-left: auto;
   margin-right: auto;
   height: 500px;
 }
 .contact {
-	display: grid;
-	grid-template-columns: 100px 100px 100px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
   margin-left: 130px;
 }
 h6 {
@@ -278,276 +283,284 @@ h6 {
   width: 80%;
 }
 .contact1 {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 20px;
-	width: 60px;
-	font-size: 8px;
-	margin-left: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  width: 60px;
+  font-size: 8px;
+  margin-left: 130px;
 }
 #contact {
   text-align: justify;
-	margin-left: 130px;
-	font-size: 25px;
+  margin-left: 130px;
+  font-size: 25px;
 }
-
-@media (max-width : 600px) {
-  body {
-    background-color: lightblue;
-   -webkit-font-smoothing: antialiased;
+  
+  @media (max-width: 600px) {
+    body, html {
+      margin: 0;
+      width: 100px;
+    }
   }
-  nav {
-    width: auto;
-    font-family: poppins;
-    text-align: center;
-    margin-top: 5px
-    color: navy;
-    font-size: 13px;
-  }
-  a {
-    width: auto;
-    text-align: center;
-    margin-right: 5px;
-    font-style: bold;
-    font-size: 12px;
-    color: black;
-  }
-  #name {
-    display: none;
-  }
-  #number {
-    display: none;
-  }
-  .item-a {
-    margin-top: 50px;
+  @media(max-width: 320px) {
+    .navigation-wrapper {
+      width: 100%;
+      margin: auto 25px;
+    }
+    nav {
+      display: grid;
+      grid-auto-flow: column;
+      font-family: poppins;
+      margin : 15px;
+      color: navy;  
+    }
+    a {
+      width: 100%;
+      text-align: center;
+      margin-right: 5px;
+      font-style: bold;
+      font-size: 12px;
+      color: black;
+    }
+    #name {
+      display: none;
+    }
+    #number {
+      display: none;
+    }
+    .item-section-1 {
+        margin-top: 50px;
     margin-left: 10px;
-  }
-  h1 {
-    width: 40%;
-    font-family: poppins;
-    margin-left: 5px;
-    font-size: 16px;
-    margin-top: -10px;
-  }
-  span {
-    color: navy;
-    font-size: 16px;
-  }
-  #circle {
-    margin-top: -120px;
-    width: 90px;
-    margin-left: 250px;
-  }
-  h2 {
-    font-family: poppins;
-    margin-left: 12px;
-    margin-top: 15px;
-    font-size: 10px;
-  }
-  p {
-    font-family: poppins;
-    margin-left: 15px;
-    font-size: 10px;
-    margin-top: -3px;
-  }
-  .pict {
-    display: flex;
-    margin-top: 40px;
-    margin-left: -100px;
-    margin-right: 5px;
-  }
-  .item-c {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: -70px;
-    margin-top: 20px;
-  }
-  img {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
-    margin-left: 20px;
-  }
-  #pict1 {
-    margin-top: 15px;
-    width: 290px;
-    margin-left: 100px;
-  }
-  #gambar2 {
-    width: 280px;
-    margin-left: 100px;
-    margin-top: 30px;
-  }
-  h3 {
-    width: 250px;
-    font-size: 14px;
-    margin-top: 450px;
-    margin-left: -291px;
-  }
-  #text {
-    width: 250px;
-    font-size: 14px;
-    margin-top: 6px;
-    margin-left: -292px;
-  }
-  #panah {
-    display: none;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  .item-d {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
-    margin-left: 0px;
-    grid-column-gap: 0px;
-  }
-  #date-1{
-    font-size: 12px;
-    margin-left: -27px;
-    margin-top: 90px;
-  }
-   #date-2{
-    font-size: 12px;
-    margin-left: -27px;
-    margin-top: 100px;
-  }
-   #date-3{
-    font-size: 12px;
-    margin-left: -27px;
-    margin-top: 103px;
-  }
-   #date-4{
-    font-size: 12px;
-    margin-left: -27px;
-    margin-top: 102px;
-  }
-  .experience {
-    display: grid;
-    grid-template-columns: 200px;
-    margin-left: 93px;
-    margin-top: -120px;
-  }
-  #loadicon {
-    width: 160px;
-    margin-bottom: -170px;
-    opacity: 30%;
-  }
-  li {
-    list-style: none;
-    font-family: poppins;
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 50px;
-  }
-  #place {
-    font-size: 12px;
-  }
-  #position {
-    font-size: 12px;
-  }
-  #line {
-    width: auto;
-  }
-  #arrow {
-    display: none;
-  }
-  .item-e {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 180px;
-    margin-left: -18px;
-  }
-  #img {
-    width: 280px;
-    margin-left: 30px;
-  }
-  .download {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 30px;
-    width: 280px;
-  }
-  #text-1 {
-    font-size: 14px;
-    font-family: poppins;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-left: 5px;
-    margin-bottom: 25px; 
-  } 
-  #email {
-    color: navy;
-    font-size: 10px;
-  }
-  button {
-    margin-bottom: 10px;
-  }
-  #header2 {
-    font-size: 30px;
-    text-align: left;
-    margin-left: 115px;  
-  }
-  .item-f {
-    margin-left: 40px;
-    margin-top: 50px;
-  }
-  #a {
-    width: 48px;
-  }
-  .item-g {
-    margin-left: -140px;
-    margin-top: 8px;
-  } 
-  #abc {
-    font-size: 12px;
-    margin-top: 32px;
-    margin-left: 170px;
-  }
-  #check {
-    margin-top: -25px;
-  }
-  #tools {
-    margin-left: 170px;
-    color: black;
-    margin-top: 0px;
-    font-size: 10px;
-  }
-  #line-1 {
-    margin-left: 170px;
-  }
-  .item-h {
-    margin-top: 100px;
-    width: 400px;
-    margin-left: 0px;
-  }
-  #lastpict {
-    width: 260px;
-    height: 180px;
-    margin-top: -80px;
-  }
-  #contactme {
-    font-size: 25px;
-  }
-  #contact {
-    margin-left: 30px;
-    font-size: 16px;
-  }
-  h6 {
-    margin-left: 30px;
-  }
-  .contact {
-    margin-left: 30px;
-  }
-  .contact1 {
-    margin-left: 30px;
-  }
-  #sm {
-    font-size: 16px;
-  }
-  }
+    }
+    h1 {
+      width: 40%;
+      font-family: poppins;
+      margin-left: 5px;
+      font-size: 16px;
+      margin-top: -10px;
+    }
+    span {
+      color: navy;
+      font-size: 16px;
+    }
+    #circle {
+      margin-top: -120px;
+      width: 90px;
+      margin-left: 250px;
+    }
+    h2 {
+      font-family: poppins;
+      margin-left: 12px;
+      margin-top: 15px;
+      font-size: 10px;
+    }
+    p {
+      font-family: poppins;
+      margin-left: 15px;
+      font-size: 10px;
+      margin-top: -3px;
+    }
+    .pict {
+      display: flex;
+      margin-top: 40px;
+      margin-left: -100px;
+      margin-right: 5px;
+    }
+    .item-section-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-left: -70px;
+      margin-top: 20px;
+    }
+    img {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
+      margin-left: 20px;
+    }
+    #pict1 {
+      margin-top: 15px;
+      width: 290px;
+      margin-left: 100px;
+    }
+    #gambar2 {
+      width: 280px;
+      margin-left: 100px;
+      margin-top: 30px;
+    }
+    h3 {
+      width: 250px;
+      font-size: 14px;
+      margin-top: 450px;
+      margin-left: -291px;
+    }
+    #text {
+      width: 250px;
+      font-size: 14px;
+      margin-top: 6px;
+      margin-left: -292px;
+    }
+    #panah {
+      display: none;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    .item-experience {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
+      grid-column-gap: 0px;
+
+    }
+    .experience {
+      display: grid;
+      grid-template-columns: 200px;
+      align-items: center;
+      margin : 80px 20px;
+      margin-top: -120px;
+    }
+    #date-1{
+      font-size: 12px;
+      margin: 0 -80px;
+      margin-top: 90px;
+    }
+     #date-2{
+      font-size: 12px;
+      margin-left: -27px;
+      margin-top: 100px;
+    }
+     #date-3{
+      font-size: 12px;
+      margin-left: -27px;
+      margin-top: 103px;
+    }
+     #date-4{
+      font-size: 12px;
+      margin-left: -27px;
+      margin-top: 102px;
+    }
+    #loadicon {
+      width: 160px;
+      margin-bottom: -170px;
+      opacity: 30%;
+    }
+    li {
+      list-style: none;
+      font-family: poppins;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+    #place {
+      font-size: 12px;
+    }
+    #position {
+      font-size: 12px;
+    }
+    .line {
+      width: auto;
+    }
+    #arrow {
+      display: none;
+    }
+    .item-download {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 180px;
+      margin-left: -18px;
+    }
+    #img {
+      width: 280px;
+      margin-left: 30px;
+    }
+    .download {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 30px;
+      width: 280px;
+    }
+    #text-1 {
+      font-size: 14px;
+      font-family: poppins;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-left: 5px;
+      margin-bottom: 25px; 
+    } 
+    #email {
+      color: navy;
+      font-size: 10px;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+    #header2 {
+      font-size: 30px;
+      text-align: left;
+      margin-left: 115px;  
+    }
+    .item-skills {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr; 
+      margin: 50px 40px;
+
+    }
+    #skill-icon{
+      width: 48px;
+    }
+    .item-g {
+      margin-left: -140px;
+      margin-top: 8px;
+    } 
+    #abc {
+      font-size: 12px;
+      margin-top: 32px;
+      margin-left: 170px;
+    }
+    #check {
+      margin-top: -25px;
+    }
+    #tools {
+      margin-left: 170px;
+      color: black;
+      margin-top: 0px;
+      font-size: 10px;
+    }
+    #line-1 {
+      margin-left: 170px;
+    }
+    .item-h {
+      margin-top: 100px;
+      width: 400px;
+      margin-left: 0px;
+    }
+    #lastpict {
+      width: 260px;
+      height: 180px;
+      margin-top: -80px;
+    }
+    #contactme {
+      font-size: 25px;
+    }
+    #contact {
+      margin-left: 30px;
+      font-size: 16px;
+    }
+    h6 {
+      margin-left: 30px;
+    }
+    .contact {
+      margin-left: 30px;
+    }
+    .contact1 {
+      margin-left: 30px;
+    }
+    #sm {
+      font-size: 16px;
+    }
+    }
+    
+    
 
 
-.skill-wrapper {
-  display: grid;
-  justify-items: center;
-}
+
