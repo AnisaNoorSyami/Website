@@ -300,12 +300,11 @@ h6 {
       .navigation-wrapper {
         display: grid;
         grid-template-columns: max-content;
-        justify-content: center;
         margin: auto 25px;
       }
       a {
-        text-align: center;
         font-size: 12px;
+        margin: 10px;
       }
       #name {
         display: none;
