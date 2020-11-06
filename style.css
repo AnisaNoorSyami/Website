@@ -31,7 +31,7 @@ nav {
 a {
   margin-right: 25px;
   font-style: bold;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
 }
 a:hover {
@@ -40,7 +40,7 @@ a:hover {
 }
 .item-section-1{
   display: grid;
-  grid-template-columns: repeat(2, minmax(320px, 1440px));
+  grid-template-columns: repeat(2, minmax(600px, 1440px));
   margin-top: 80px;
   grid-auto-flow: dense;
 }
@@ -303,7 +303,7 @@ h6 {
         margin: auto 10px;
       }
       a {
-        font-size: 12px;
+        font-size: 8px;
         margin: 10px;
       }
       #name {
@@ -313,17 +313,23 @@ h6 {
         display: none;
       }
       .item-section-1 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1440px));
         margin: 20px 10px;
       }
       h1 {
-        font-size: 20px;
+        font-size: 14px;
         margin: 0;
-        width: 58%;
+        width: 100%;
       }
         #circle {
           width: 120px;
           margin: 0;
-        }
+      }
+      .item-section-2 {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(60px, 1fr));
+      }
       h2 {
       font-family: poppins;
       margin-left: 12px;
@@ -341,11 +347,16 @@ h6 {
         margin-top: 40px;
         margin-left: -100px;
         margin-right: 5px;
+        border-bottom: solid;
+        border-color: grey;
+        border-width: 100%;
+        border-bottom-width: 1px;
       }
       .item-section-3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 0 25px;
+        border: none;
       }
     img {
       display: grid;
@@ -381,7 +392,7 @@ h6 {
     }
     .item-experience {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
+      grid-template-columns: repeat(1, minmax(100px, 288px));
       grid-column-gap: 0px;
 
     }
@@ -488,20 +499,23 @@ h6 {
     } 
     #abc {
       font-size: 12px;
-      margin-top: 32px;
-      margin-left: 170px;
+      margin: 32px 15px;
     }
     #check {
-      margin-top: -25px;
+      margin: 0;
     }
     #tools {
-      margin-left: 170px;
       color: black;
       margin-top: 0px;
       font-size: 10px;
+      margin: -40px 20px;
     }
     #line-1 {
-      margin-left: 170px;
+      margin: 0;
+    }
+    .item-adobe {
+      display: grid;
+      margin: 0;
     }
     .item-contact {
       display: none;
