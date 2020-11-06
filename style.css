@@ -40,7 +40,7 @@ a:hover {
 }
 .item-section-1{
   display: grid;
-  grid-template-columns: repeat(2, minmax(320px, 1440px));
+  grid-template-columns: repeat(2, minmax(428px, 1440px));
   margin-top: 80px;
   grid-auto-flow: dense;
 }
@@ -296,4 +296,22 @@ h6 {
   font-size: 25px;
 }
   
+  @media (max-width: 600px ) {
+      .navigation-wrapper {
+        display: grid;
+        grid-template-columns: max-content;
+        justify-content: center;
+        margin: auto 25px;
+      }
+      a {
+        text-align: center;
+        font-size: 12px;
+      }
+      #name {
+        display: none;
+      }
+      #number {
+        display: none;
+      }
+  }
   
