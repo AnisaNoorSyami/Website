@@ -302,13 +302,13 @@ h6 {
         margin: 0;
       }
       .navigation-wrapper {
-        display: grid;
-        grid-template-columns: max-content;
+        display: none;
+        grid-template-columns: 380px;
         margin: auto 10px;
       }
       a {
-        font-size: 18px;
-        margin: 20px;
+        font-size: 10px;
+        margin: 5px;
       }
       #name {
         display: none;
@@ -355,14 +355,14 @@ h6 {
         border-color: grey;
         border-width: 100%;
         border-bottom-width: 1px;
-        justify-content: center;
+        justify-content: flex-end;
       }
       .item-section-3 {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 25px;
         border: none;
-        justify-items: center;
+        justify-items: revert;
       }
       img {
         display: grid;
@@ -371,11 +371,11 @@ h6 {
       }
       #pict1 {
         margin-top: 15px;
-        width: 380px;
+        width: 270px;
       }
       #gambar2 {
         margin-top: 15px;
-        width: 380px;
+        width: 270px;
         margin: 20px 0;
       }
       h3 {
@@ -456,7 +456,8 @@ h6 {
       .item-download {
         display: grid;
         grid-template-columns: 1fr;
-        justify-content: right;
+        justify-content: left;
+        margin: 10px -9px;
       }
       #img {
         width: 280px;
@@ -490,7 +491,7 @@ h6 {
       }
       .item-skills {
         display: grid;
-        grid-template-columns: repeat(1, minmax(500px,1fr));
+        grid-template-columns: repeat(1, minmax(240px,1fr));
         grid-template-rows: 1fr 1fr 1fr;
         margin: 50px 40px;
         justify-items: center;
