@@ -1,5 +1,5 @@
 html, body {
-  margin: 0 5px;
+  margin: 0;
   height: 100%;
 }
 body {
@@ -47,7 +47,8 @@ a:hover {
 h1 {
   font-family: poppins;
   margin-left: 120px;
-  font-size: 40px;
+  font-size: 42px;
+  width: 100%;
 }
 span {
   color: navy;
@@ -296,15 +297,18 @@ h6 {
   font-size: 25px;
 }
   
-  @media screen and (max-width: 320px ) {
+  @media screen and (max-width: 600px ) {
+      body {
+        margin: 0;
+      }
       .navigation-wrapper {
         display: grid;
         grid-template-columns: max-content;
         margin: auto 10px;
       }
       a {
-        font-size: 8px;
-        margin: 10px;
+        font-size: 18px;
+        margin: 20px;
       }
       #name {
         display: none;
@@ -314,27 +318,28 @@ h6 {
       }
       .item-section-1 {
         display: grid;
-        grid-template-columns: repeat(2, minmax(140px, 1440px));
+        grid-template-columns: repeat(2, minmax(130px, 1440px));
         margin: 20px 10px;
       }
       h1 {
-        font-size: 14px;
-        margin: 0;
+        font-size: 20px;
+        margin: 20px 10px;
         width: 100%;
       }
         #circle {
-          width: 120px;
-          margin: 0;
+        width: 120px;
+        margin: 0;
+        align-self: center;
+        justify-self: center;
       }
       .item-section-2 {
         display: grid;
         grid-template-columns: repeat(1, minmax(60px, 1fr));
       }
       h2 {
-      font-family: poppins;
-      margin-left: 12px;
-      margin-top: 15px;
-      font-size: 10px;
+        font-family: poppins;
+        margin: 15px 20px;
+        font-size: 14px;
       }
       p {
         font-family: poppins;
@@ -345,180 +350,185 @@ h6 {
       .pict {
         display: flex;
         margin-top: 40px;
-        margin-left: -100px;
         margin-right: 5px;
         border-bottom: solid;
         border-color: grey;
         border-width: 100%;
         border-bottom-width: 1px;
+        justify-content: center;
       }
       .item-section-3 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin: 0 25px;
         border: none;
+        justify-items: center;
       }
-    img {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
+      img {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
 
-    }
-    #pict1 {
-      margin-top: 15px;
-      width: 260px;
-    }
-    #gambar2 {
-      margin-top: 15px;
-      width: 260px;
-      margin: 20px 0;
-    }
-    h3 {
-      width: 250px;
-      font-size: 14px;
-      margin-top: 450px;
-      margin-left: -291px;
-    }
-    #text {
-      width: 250px;
-      font-size: 14px;
-      margin-top: 6px;
-      margin-left: -292px;
-    }
-    #panah {
-      display: none;
-    }
-    h4 {
-      font-size: 16px;
-    }
-    .item-experience {
-      display: grid;
-      grid-template-columns: repeat(1, minmax(100px, 288px));
-      grid-column-gap: 0px;
+      }
+      #pict1 {
+        margin-top: 15px;
+        width: 380px;
+      }
+      #gambar2 {
+        margin-top: 15px;
+        width: 380px;
+        margin: 20px 0;
+      }
+      h3 {
+        justify-content: center;
+        width: 350px;
+        font-size: 16px;
+        margin: 5px;
+      }
+      #text {
+        width: 330px;
+        font-size: 16px;
+        text-align: start;
+        margin: 5px;
+      }
+      #panah {
+        display: none;
+      }
+      h4 {
+        font-size: 16px;
+      }
+      .item-experience {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(100px, 288px));
+        grid-column-gap: 0px;
 
+      }
+      .experience {
+        display: grid;
+        grid-template-columns: 200px;
+        align-items: center;
+        margin : 80px 20px;
+        margin-top: -120px;
+      }
+      #date-1{
+        font-size: 12px;
+        margin: 0 -80px;
+        margin-top: 90px;
+      }
+       #date-2{
+        font-size: 12px;
+        margin-left: -27px;
+        margin-top: 100px;
+      }
+       #date-3{
+        font-size: 12px;
+        margin-left: -27px;
+        margin-top: 103px;
+      }
+       #date-4{
+        font-size: 12px;
+        margin-left: -27px;
+        margin-top: 102px;
+      }
+      #loadicon {
+        width: 160px;
+        margin-bottom: -170px;
+        opacity: 30%;
+      }
+      li {
+        list-style: none;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 50px;
+      }
+      #place {
+        font-size: 12px;
+      }
+      #position {
+        font-size: 12px;
+      }
+      .line {
+        width: auto;
+      }
+      #arrow {
+        display: none;
+      }
+      .item-download {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: right;
+      }
+      #img {
+        width: 280px;
+        margin-left: 30px;
+      }
+      .download {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+        width: 280px;
+      }
+      #text-1 {
+        font-size: 14px;
+        font-family: poppins;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-left: 5px;
+        margin-bottom: 25px; 
+      } 
+      #email {
+        color: navy;
+        font-size: 10px;
+      }
+      button {
+        margin-bottom: 10px;
+      }
+      #header2 {
+        font-size: 30px;
+        text-align: left;
+        margin-left: 115px;  
+      }
+      .item-skills {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(500px,1fr));
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 50px 40px;
+        justify-items: center;
+      }
+      #skill-icon{
+        width: 48px;
+      }
+      .item-g {
+        margin-left: -140px;
+        margin-top: 8px;
+      } 
+      #abc {
+        font-size: 12px;
+        margin: 32px 15px;
+      }
+      #check {
+        margin: 0;
+      }
+      #tools {
+        color: black;
+        margin-top: 0px;
+        font-size: 10px;
+        margin: -40px 20px;
+      }
+      #line-1 {
+        margin: 0;
+      }
+      .item-adobe {
+        display: grid;
+        margin: 0;
+      }
+      .item-contact {
+        display: none;
+      }
     }
-    .experience {
-      display: grid;
-      grid-template-columns: 200px;
-      align-items: center;
-      margin : 80px 20px;
-      margin-top: -120px;
-    }
-    #date-1{
-      font-size: 12px;
-      margin: 0 -80px;
-      margin-top: 90px;
-    }
-     #date-2{
-      font-size: 12px;
-      margin-left: -27px;
-      margin-top: 100px;
-    }
-     #date-3{
-      font-size: 12px;
-      margin-left: -27px;
-      margin-top: 103px;
-    }
-     #date-4{
-      font-size: 12px;
-      margin-left: -27px;
-      margin-top: 102px;
-    }
-    #loadicon {
-      width: 160px;
-      margin-bottom: -170px;
-      opacity: 30%;
-    }
-    li {
-      list-style: none;
-      font-family: poppins;
-      font-weight: bold;
-      font-size: 14px;
-      margin-top: 50px;
-    }
-    #place {
-      font-size: 12px;
-    }
-    #position {
-      font-size: 12px;
-    }
-    .line {
-      width: auto;
-    }
-    #arrow {
-      display: none;
-    }
-    .item-download {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin-top: 180px;
-      margin-left: -18px;
-    }
-    #img {
-      width: 280px;
-      margin-left: 30px;
-    }
-    .download {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      margin-left: 30px;
-      width: 280px;
-    }
-    #text-1 {
-      font-size: 14px;
-      font-family: poppins;
-      font-weight: bold;
-      letter-spacing: 1px;
-      margin-left: 5px;
-      margin-bottom: 25px; 
+     
+    @media screen and (min-width: 600px) {
+      .navigation-wrapper {
+        
+      }
     } 
-    #email {
-      color: navy;
-      font-size: 10px;
-    }
-    button {
-      margin-bottom: 10px;
-    }
-    #header2 {
-      font-size: 30px;
-      text-align: left;
-      margin-left: 115px;  
-    }
-    .item-skills {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr; 
-      margin: 50px 40px;
-
-    }
-    #skill-icon{
-      width: 48px;
-    }
-    .item-g {
-      margin-left: -140px;
-      margin-top: 8px;
-    } 
-    #abc {
-      font-size: 12px;
-      margin: 32px 15px;
-    }
-    #check {
-      margin: 0;
-    }
-    #tools {
-      color: black;
-      margin-top: 0px;
-      font-size: 10px;
-      margin: -40px 20px;
-    }
-    #line-1 {
-      margin: 0;
-    }
-    .item-adobe {
-      display: grid;
-      margin: 0;
-    }
-    .item-contact {
-      display: none;
-    }
-  }
-    
