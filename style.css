@@ -40,7 +40,7 @@ a:hover {
 }
 .item-section-1{
   display: grid;
-  grid-template-columns: repeat(2, minmax(428px, 1440px));
+  grid-template-columns: repeat(2, minmax(320px, 1440px));
   margin-top: 80px;
   grid-auto-flow: dense;
 }
@@ -296,11 +296,11 @@ h6 {
   font-size: 25px;
 }
   
-  @media (max-width: 600px ) {
+  @media screen and (max-width: 320px ) {
       .navigation-wrapper {
         display: grid;
         grid-template-columns: max-content;
-        margin: auto 25px;
+        margin: auto 10px;
       }
       a {
         font-size: 12px;
@@ -312,5 +312,199 @@ h6 {
       #number {
         display: none;
       }
+      .item-section-1 {
+        margin: 20px 10px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0;
+        width: 58%;
+      }
+        #circle {
+          width: 120px;
+          margin: 0;
+        }
+      h2 {
+      font-family: poppins;
+      margin-left: 12px;
+      margin-top: 15px;
+      font-size: 10px;
+      }
+      p {
+        font-family: poppins;
+        margin-left: 15px;
+        font-size: 10px;
+        margin-top: -3px;
+      }
+      .pict {
+        display: flex;
+        margin-top: 40px;
+        margin-left: -100px;
+        margin-right: 5px;
+      }
+      .item-section-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 25px;
+      }
+    img {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
+
+    }
+    #pict1 {
+      margin-top: 15px;
+      width: 260px;
+    }
+    #gambar2 {
+      margin-top: 15px;
+      width: 260px;
+      margin: 20px 0;
+    }
+    h3 {
+      width: 250px;
+      font-size: 14px;
+      margin-top: 450px;
+      margin-left: -291px;
+    }
+    #text {
+      width: 250px;
+      font-size: 14px;
+      margin-top: 6px;
+      margin-left: -292px;
+    }
+    #panah {
+      display: none;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    .item-experience {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 288px));
+      grid-column-gap: 0px;
+
+    }
+    .experience {
+      display: grid;
+      grid-template-columns: 200px;
+      align-items: center;
+      margin : 80px 20px;
+      margin-top: -120px;
+    }
+    #date-1{
+      font-size: 12px;
+      margin: 0 -80px;
+      margin-top: 90px;
+    }
+     #date-2{
+      font-size: 12px;
+      margin-left: -27px;
+      margin-top: 100px;
+    }
+     #date-3{
+      font-size: 12px;
+      margin-left: -27px;
+      margin-top: 103px;
+    }
+     #date-4{
+      font-size: 12px;
+      margin-left: -27px;
+      margin-top: 102px;
+    }
+    #loadicon {
+      width: 160px;
+      margin-bottom: -170px;
+      opacity: 30%;
+    }
+    li {
+      list-style: none;
+      font-family: poppins;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+    #place {
+      font-size: 12px;
+    }
+    #position {
+      font-size: 12px;
+    }
+    .line {
+      width: auto;
+    }
+    #arrow {
+      display: none;
+    }
+    .item-download {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 180px;
+      margin-left: -18px;
+    }
+    #img {
+      width: 280px;
+      margin-left: 30px;
+    }
+    .download {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 30px;
+      width: 280px;
+    }
+    #text-1 {
+      font-size: 14px;
+      font-family: poppins;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-left: 5px;
+      margin-bottom: 25px; 
+    } 
+    #email {
+      color: navy;
+      font-size: 10px;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+    #header2 {
+      font-size: 30px;
+      text-align: left;
+      margin-left: 115px;  
+    }
+    .item-skills {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr; 
+      margin: 50px 40px;
+
+    }
+    #skill-icon{
+      width: 48px;
+    }
+    .item-g {
+      margin-left: -140px;
+      margin-top: 8px;
+    } 
+    #abc {
+      font-size: 12px;
+      margin-top: 32px;
+      margin-left: 170px;
+    }
+    #check {
+      margin-top: -25px;
+    }
+    #tools {
+      margin-left: 170px;
+      color: black;
+      margin-top: 0px;
+      font-size: 10px;
+    }
+    #line-1 {
+      margin-left: 170px;
+    }
+    .item-contact {
+      display: none;
+    }
   }
-  
+    
