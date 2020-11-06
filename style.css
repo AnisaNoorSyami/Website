@@ -380,12 +380,12 @@ h6 {
       }
       h3 {
         justify-content: center;
-        width: 350px;
+        width: 260px;
         font-size: 16px;
         margin: 5px;
       }
       #text {
-        width: 330px;
+        width: 240px;
         font-size: 16px;
         text-align: start;
         margin: 5px;
@@ -486,8 +486,7 @@ h6 {
       }
       #header2 {
         font-size: 30px;
-        text-align: left;
-        margin-left: 115px;  
+        text-align: center;  
       }
       .item-skills {
         display: grid;
@@ -499,13 +498,9 @@ h6 {
       #skill-icon{
         width: 48px;
       }
-      .item-g {
-        margin-left: -140px;
-        margin-top: 8px;
-      } 
       #abc {
-        font-size: 12px;
-        margin: 32px 15px;
+        font-size: 16px;
+        margin: 32px 50px -20px;
       }
       #check {
         margin: 0;
@@ -514,10 +509,12 @@ h6 {
         color: black;
         margin-top: 0px;
         font-size: 10px;
-        margin: -40px 20px;
+        margin: -40px 50px;
       }
       #line-1 {
-        margin: 0;
+        margin: 0 50px;
+    width: 60%;
+    color: black;
       }
       .item-adobe {
         display: grid;
@@ -528,8 +525,4 @@ h6 {
       }
     }
      
-    @media screen and (min-width: 600px) {
-      .navigation-wrapper {
-        
-      }
-    } 
+    
