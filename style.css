@@ -46,6 +46,7 @@ nav.nav-mobile .right {
 .nav-mobile .item {
   font-size: 20px;
   font-weight: bold;
+  margin: 10px;
 }
 
 .nav-desktop .nav-menu {
@@ -161,12 +162,17 @@ h4 {
 }
 
 .item-experience {
-  display: block;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-row-gap: 50px;
 }
 
 .experience.wrapper {
   display: grid;
   grid-template-columns: repeat(1, minmax(320px, 1fr));
+
 }
 
 #loadicon {
@@ -222,8 +228,8 @@ li {
 .item-download {
   display: grid;
   grid-template-columns: 250px 180px 0px;
-  margin-top: 200px;
-  margin-left: 380px;
+  margin-top: 100px;
+  margin-left: 0px;
 }
 
 .download {
@@ -326,11 +332,8 @@ h5 {
   display: grid;
   grid-template-columns: 100%;
   background-color: white;
-  margin-top: 300px;
   width: 95%;
-  margin-left: 37px;
-  margin-right: 150px;
-  margin-bottom: 20px;
+  margin: 300px 50px 50px 50px;
 }
 
 #lastpict {
@@ -522,14 +525,12 @@ h6 {
 
   }
 
-  .experience {
+  .experience-wrapper {
     display: grid;
     grid-template-columns: 200px;
     align-items: center;
-    margin: 80px 20px;
-    margin-top: -120px;
-  }
-
+    margin: 0px 20px;
+}
   #date-1 {
     font-size: 12px;
     margin: 0 -80px;
@@ -623,14 +624,15 @@ h6 {
 
   #header2 {
     font-size: 30px;
-    text-align: center;
+    margin: 50px 80px;
+    width: 100%;
   }
 
   .item-skills {
     display: grid;
     grid-template-columns: repeat(1, minmax(240px, 1fr));
     grid-template-rows: 1fr 1fr 1fr;
-    margin: 50px 40px;
+    margin: 30px 100px;
     justify-items: center;
   }
 
@@ -666,6 +668,43 @@ h6 {
   }
 
   .item-contact {
-    display: none;
+    display: block;
+    margin-top: 50px; 
   }
+  #lastpict {
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+  }
+  #contact {
+    text-align: justify;
+    margin: 10px;
+    font-size: 12px;
+  }
+  h6 {
+    font-family: poppins;
+    font-size: 8px;
+    margin: 10px;
+    border-bottom: solid;
+    border-width: 1px;
+    width: 80%;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    margin-left: 10px;
+    grid-column-gap: 20px;
+ }
+  .contact1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    width: 60px;
+    margin-left: 0px;
+ }
+ h5 {
+    font-family: poppins;
+    font-size: 8px;
+}
 }
