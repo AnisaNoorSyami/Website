@@ -669,7 +669,8 @@ h6 {
 
   .item-contact {
     display: block;
-    margin-top: 50px; 
+    margin: 50px;
+    margin-left: 80px;
   }
   #lastpict {
     margin-top: -50px;
