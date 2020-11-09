@@ -1,40 +1,64 @@
-html, body {
-  margin: 0;
+html,
+body {
+  font-family: poppins;
   height: 100%;
+  margin: 0;
 }
+
 body {
   background-color: #86D1EA;
   -webkit-font-smoothing: antialiased;
   display: block;
 }
-.navigation-wrapper {
-  display: grid;
-  margin: 20px 120px;
-  grid-template-columns: repeat(1, minmax(320px, auto));
+
+nav.nav-mobile {
+  display: none;
 }
-nav {
-  font-family: poppins;
-  margin-top: 20px;
+
+nav.nav-desktop {
   border-bottom: solid;
-  border-width: 1px;
   border-color: grey;
+  border-width: 1px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 20% 60% 20%;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 25px 0;
   text-align: center;
 }
-#name {
-  float: left;
-  font-weight: bold;
+
+nav.nav-desktop .left,
+nav.nav-mobile .left {
+  text-align: left;
 }
-#number {
-  font-weight: bold;
-  float: right;
+
+nav.nav-desktop .right,
+nav.nav-mobile .right {
+  text-align: right;
 }
-a {
-  margin-right: 25px;
-  font-style: bold;
+
+.nav-desktop .menu {
+  margin-top: 5px;
+}
+
+.nav-desktop .item,
+.nav-mobile .item {
   font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-desktop .nav-menu {
+  font-size: 16px;
   color: black;
 }
-a:hover {
+
+.nav-desktop .nav-menu:not(:last-child) {
+  margin-right: 35px;
+}
+
+.nav-menu:hover,
+.item:hover {
   color: #25A5D0;
   cursor: pointer;
 }
