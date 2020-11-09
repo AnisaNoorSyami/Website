@@ -62,46 +62,55 @@ nav.nav-mobile .right {
   color: #25A5D0;
   cursor: pointer;
 }
-.item-section-1{
+
+.item-section-1 {
   display: grid;
   grid-template-columns: repeat(2, minmax(600px, 1440px));
   margin-top: 80px;
   grid-auto-flow: dense;
 }
+
 h1 {
   font-family: poppins;
   margin-left: 120px;
   font-size: 42px;
   width: 100%;
 }
+
 span {
   color: navy;
 }
+
 #circle {
   margin: 0 auto;
   width: 220px;
 }
+
 .item-section-2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
 }
+
 h2 {
   font-family: poppins;
   margin-left: 120px;
   margin-top: 45px;
   font-size: 16px;
 }
+
 p {
   font-family: poppins;
   margin-left: 120px;
   font-size: 14px;
   margin-top: 3px;
 }
+
 .pict {
   margin-top: 80px;
   padding-left: 300px;
   margin-right: 25px;
 }
+
 .item-section-3 {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
@@ -112,30 +121,37 @@ p {
   border-width: 100%;
   border-width: 1px;
 }
+
 .img1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 #pict1 {
   margin-top: -30px;
 }
+
 #gambar2 {
   width: 350px;
   margin-left: 260px;
   margin-top: -140px;
 }
+
 h3 {
   margin-top: 100px;
   width: 90%;
   font-family: poppins;
   margin-left: 25px;
 }
+
 #text {
   margin-left: 25px;
 }
+
 #panah {
   margin-top: -40px;
 }
+
 h4 {
   font-family: poppins;
   text-align: center;
@@ -143,59 +159,73 @@ h4 {
   margin-top: 60px;
   margin-bottom: 10px;
 }
+
 .item-experience {
-  display: block; 
+  display: block;
 }
+
 .experience.wrapper {
   display: grid;
   grid-template-columns: repeat(1, minmax(320px, 1fr));
 }
+
 #loadicon {
   width: 195px;
   margin-bottom: -170px;
   opacity: 60%;
 }
+
 li {
   list-style: none;
   font-family: poppins;
   font-weight: bold;
   font-size: 20px;
 }
-#date-1, #date-2, #date-3, #date-4{
-  font-family: poppins;   
+
+#date-1,
+#date-2,
+#date-3,
+#date-4 {
+  font-family: poppins;
   font-size: 16px;
   font-weight: bold;
-  color: grey;  
+  color: grey;
   line-height: 14px;
 }
+
 #place {
   font-family: poppins;
   color: grey;
   margin-left: 10px;
   font-size: 16px;
 }
+
 #position {
   font-family: poppins;
   color: black;
   font-weight: bold;
   font-size: 16px;
 }
+
 .line {
-  border : solid;
+  border: solid;
   color: grey;
   border-width: 1px;
   margin-top: 5px;
   width: 60%;
 }
+
 #arrow {
   margin-top: 80px;
 }
+
 .item-download {
   display: grid;
   grid-template-columns: 250px 180px 0px;
   margin-top: 200px;
   margin-left: 380px;
 }
+
 .download {
   background-color: white;
   width: 100%;
@@ -203,10 +233,12 @@ li {
   margin-top: -10px;
   margin-bottom: 10px;
 }
+
 #img1 {
   margin-left: 35px;
   margin-top: 15px;
 }
+
 #text-1 {
   font-family: poppins;
   font-weight: bold;
@@ -214,12 +246,14 @@ li {
   margin-left: 5px;
   margin-bottom: 50px;
 }
+
 #text-2 {
   font-size: 12px;
-  font-family: poppins; 
+  font-family: poppins;
   margin-left: 5px;
   font-weight: bold;
 }
+
 button {
   background-color: blue;
   font-family: poppins;
@@ -228,55 +262,66 @@ button {
   margin-left: 35px;
 
 }
-.item-skills{
+
+.item-skills {
   display: grid;
   grid-auto-flow: column;
   column-gap: 150px;
   margin: 40px 90px 60px;
 }
+
 .skill-wrapper {
   display: grid;
   justify-items: center;
 }
+
 .item-skills div img {
   align-self: center;
 }
+
 h5 {
   font-family: poppins;
   font-size: 20px;
   text-align: center;
 }
+
 #text-3 {
   margin-left: 0px;
 }
+
 .item-adobe {
   display: grid;
   grid-template-columns: repeat(1, minmax(320px, auto));
   margin-left: 150px;
   margin-top: 50px;
 }
+
 #abc {
   margin-top: 50px;
   font-size: 30px;
   font-weight: bold;
   margin-left: 288px;
 }
+
 #check {
   margin-left: 120px;
 }
+
 #tools {
   margin-left: 138px;
   color: black;
   margin-top: 0px;
   font-family: poppins;
 }
-#line-1{
+
+#line-1 {
   border: solid;
   width: 40%;
   border-width: 1px;
   margin-left: 290px;
   margin-top: 10px;
 }
+
 .item-contact {
   display: grid;
   grid-template-columns: 100%;
@@ -287,17 +332,20 @@ h5 {
   margin-right: 150px;
   margin-bottom: 20px;
 }
+
 #lastpict {
   margin-top: -250px;
   margin-left: auto;
   margin-right: auto;
   height: 500px;
 }
+
 .contact {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   margin-left: 130px;
 }
+
 h6 {
   font-family: poppins;
   font-size: 12px;
@@ -307,6 +355,7 @@ h6 {
   border-width: 1px;
   width: 80%;
 }
+
 .contact1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -315,238 +364,308 @@ h6 {
   font-size: 8px;
   margin-left: 130px;
 }
+
 #contact {
   text-align: justify;
   margin-left: 130px;
   font-size: 25px;
 }
-  
-  @media screen and (max-width: 600px ) {
-      body {
-        margin: 0;
-      }
-      .navigation-wrapper {
-        display: none;
-        grid-template-columns: 380px;
-        margin: auto 10px;
-      }
-      a {
-        font-size: 10px;
-        margin: 5px;
-      }
-      #name {
-        display: none;
-      }
-      #number {
-        display: none;
-      }
-      .item-section-1 {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(130px, 1440px));
-        margin: 20px 10px;
-      }
-      h1 {
-        font-size: 20px;
-        margin: 20px 10px;
-        width: 100%;
-      }
-        #circle {
-        width: 120px;
-        margin: 0;
-        align-self: center;
-        justify-self: center;
-      }
-      .item-section-2 {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(60px, 1fr));
-      }
-      h2 {
-        font-family: poppins;
-        margin: 15px 20px;
-        font-size: 14px;
-      }
-      p {
-        font-family: poppins;
-        margin-left: 15px;
-        font-size: 10px;
-        margin-top: -3px;
-      }
-      .pict {
-        display: flex;
-        margin-top: 40px;
-        margin-right: 5px;
-        border-bottom: solid;
-        border-color: grey;
-        border-width: 100%;
-        border-bottom-width: 1px;
-        justify-content: flex-end;
-      }
-      .item-section-3 {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 0 25px;
-        border: none;
-        justify-items: revert;
-      }
-      img {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
 
-      }
-      #pict1 {
-        margin-top: 15px;
-        width: 270px;
-      }
-      #gambar2 {
-        margin-top: 15px;
-        width: 270px;
-        margin: 20px 0;
-      }
-      h3 {
-        justify-content: center;
-        width: 260px;
-        font-size: 16px;
-        margin: 5px;
-      }
-      #text {
-        width: 240px;
-        font-size: 16px;
-        text-align: start;
-        margin: 5px;
-      }
-      #panah {
-        display: none;
-      }
-      h4 {
-        font-size: 16px;
-      }
-      .item-experience {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(100px, 288px));
-        grid-column-gap: 0px;
+@media screen and (max-width: 1000px) {
+  nav.nav-desktop {
+    display: none;
+  }
 
-      }
-      .experience {
-        display: grid;
-        grid-template-columns: 200px;
-        align-items: center;
-        margin : 80px 20px;
-        margin-top: -120px;
-      }
-      #date-1{
-        font-size: 12px;
-        margin: 0 -80px;
-        margin-top: 90px;
-      }
-       #date-2{
-        font-size: 12px;
-        margin-left: -27px;
-        margin-top: 100px;
-      }
-       #date-3{
-        font-size: 12px;
-        margin-left: -27px;
-        margin-top: 103px;
-      }
-       #date-4{
-        font-size: 12px;
-        margin-left: -27px;
-        margin-top: 102px;
-      }
-      #loadicon {
-        width: 160px;
-        margin-bottom: -170px;
-        opacity: 30%;
-      }
-      li {
-        list-style: none;
-        font-family: poppins;
-        font-weight: bold;
-        font-size: 14px;
-        margin-top: 50px;
-      }
-      #place {
-        font-size: 12px;
-      }
-      #position {
-        font-size: 12px;
-      }
-      .line {
-        width: auto;
-      }
-      #arrow {
-        display: none;
-      }
-      .item-download {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: left;
-        margin: 10px -9px;
-      }
-      #img {
-        width: 280px;
-        margin-left: 30px;
-      }
-      .download {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 30px;
-        width: 280px;
-      }
-      #text-1 {
-        font-size: 14px;
-        font-family: poppins;
-        font-weight: bold;
-        letter-spacing: 1px;
-        margin-left: 5px;
-        margin-bottom: 25px; 
-      } 
-      #email {
-        color: navy;
-        font-size: 10px;
-      }
-      button {
-        margin-bottom: 10px;
-      }
-      #header2 {
-        font-size: 30px;
-        text-align: center;  
-      }
-      .item-skills {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(240px,1fr));
-        grid-template-rows: 1fr 1fr 1fr;
-        margin: 50px 40px;
-        justify-items: center;
-      }
-      #skill-icon{
-        width: 48px;
-      }
-      #abc {
-        font-size: 16px;
-        margin: 32px 50px -20px;
-      }
-      #check {
-        margin: 0;
-      }
-      #tools {
-        color: black;
-        margin-top: 0px;
-        font-size: 10px;
-        margin: -40px 50px;
-      }
-      #line-1 {
-        margin: 0 50px;
+  nav.nav-mobile {
+    display: block;
+  }
+
+  nav.nav-mobile .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    padding: 25px 25px 10px;
+  }
+
+  nav.nav-mobile .menu-link,
+  nav.nav-mobile .icon a {
+    color: black;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  nav.nav-mobile #close_icon {
+    display: none;
+  }
+
+  nav.nav-mobile .sub-menu {
+    display: none;
+    padding: 0 25px;
+  }
+
+  nav.nav-mobile .sub-menu ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav.nav-mobile .sub-menu ul li {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  a.nav-menu {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item-section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(130px, 1440px));
+    margin: 20px 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 20px 10px;
+    width: 100%;
+  }
+
+  #circle {
+    width: 120px;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .item-section-2 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(60px, 1fr));
+  }
+
+  h2 {
+    font-family: poppins;
+    margin: 15px 20px;
+    font-size: 14px;
+  }
+
+  p {
+    font-family: poppins;
+    margin-left: 15px;
+    font-size: 10px;
+    margin-top: -3px;
+  }
+
+  .pict {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 5px;
+    border-bottom: solid;
+    border-color: grey;
+    border-width: 100%;
+    border-bottom-width: 1px;
+    justify-content: flex-end;
+  }
+
+  .item-section-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 25px;
+    border: none;
+    justify-items: revert;
+  }
+
+  img {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 220px));
+
+  }
+
+  #pict1 {
+    margin-top: 15px;
+    width: 270px;
+  }
+
+  #gambar2 {
+    margin-top: 15px;
+    width: 270px;
+    margin: 20px 0;
+  }
+
+  h3 {
+    justify-content: center;
+    width: 260px;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  #text {
+    width: 240px;
+    font-size: 16px;
+    text-align: start;
+    margin: 5px;
+  }
+
+  #panah {
+    display: none;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .item-experience {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 288px));
+    grid-column-gap: 0px;
+
+  }
+
+  .experience {
+    display: grid;
+    grid-template-columns: 200px;
+    align-items: center;
+    margin: 80px 20px;
+    margin-top: -120px;
+  }
+
+  #date-1 {
+    font-size: 12px;
+    margin: 0 -80px;
+    margin-top: 90px;
+  }
+
+  #date-2 {
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 100px;
+  }
+
+  #date-3 {
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 103px;
+  }
+
+  #date-4 {
+    font-size: 12px;
+    margin-left: -27px;
+    margin-top: 102px;
+  }
+
+  #loadicon {
+    width: 160px;
+    margin-bottom: -170px;
+    opacity: 30%;
+  }
+
+  li {
+    list-style: none;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+
+  #place {
+    font-size: 12px;
+  }
+
+  #position {
+    font-size: 12px;
+  }
+
+  .line {
+    width: auto;
+  }
+
+  #arrow {
+    display: none;
+  }
+
+  .item-download {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    margin: 10px -9px;
+  }
+
+  #img {
+    width: 280px;
+    margin-left: 30px;
+  }
+
+  .download {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    width: 280px;
+  }
+
+  #text-1 {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+  }
+
+  #email {
+    color: navy;
+    font-size: 10px;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+
+  #header2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .item-skills {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(240px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 50px 40px;
+    justify-items: center;
+  }
+
+  #skill-icon {
+    width: 48px;
+  }
+
+  #abc {
+    font-size: 16px;
+    margin: 32px 50px -20px;
+  }
+
+  #check {
+    margin: 0;
+  }
+
+  #tools {
+    color: black;
+    margin-top: 0px;
+    font-size: 10px;
+    margin: -40px 50px;
+  }
+
+  #line-1 {
+    margin: 0 50px;
     width: 60%;
     color: black;
-      }
-      .item-adobe {
-        display: grid;
-        margin: 0;
-      }
-      .item-contact {
-        display: none;
-      }
-    }
-     
-    
+  }
+
+  .item-adobe {
+    display: grid;
+    margin: 0;
+  }
+
+  .item-contact {
+    display: none;
+  }
+}
